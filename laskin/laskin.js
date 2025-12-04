@@ -13,7 +13,7 @@ const Laskin = function () {};
  */
 Laskin.prototype.plusLasku = function (a, b) {
   const tulos = a + b;
-  const tuloste = `${a} + ${b} = ${tulos}`;
+  const tuloste = `${a} - ${b} = ${tulos}`;
   console.log(tuloste);
   return tulos;
 };
